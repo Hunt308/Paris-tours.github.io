@@ -1,0 +1,24 @@
+This website is going to be the first time I use mysqli and php to create a blog posting system. This will be the basics for the mvc website later. 
+This website I will try deploying and when I upload it to github I will provide a link. 
+I will be using the php blog website concepts and try recalling it. 
+Though the php blog doesn't have a read more option. So I will use this video with javascript to make it hidden unless you click READ MORE video..................
+
+https://www.youtube.com/watch?v=TvVY8c1uvG8&t=602s
+
+I may also try including images. 
+This and maybe another one will give me good enough practice to start pdo and then I will try making something with pdo then I will take the php course
+
+This is going to be a website about Paris. 
+What it will do is it will have a beautiful hero section where it shows the eifeal tower. It will then have a gallery of the photos of Paris. Then it will have a user experience section. Then it will have a service section to get a way to Paris.
+
+
+
+Colors:
+
+e63946
+f1faee
+a8dadc
+457b9d
+1d3557
+
+https://www.google.com/search?q=services+website+page+traveling&tbm=isch&ved=2ahUKEwjnqtHI2rbzAhVDh1MKHUYvB7IQ2-cCegQIABAA&oq=services+website+page+traveling&gs_lcp=CgNpbWcQAzoECAAQHjoGCAAQCBAeUO8oWNI0YIw2aABwAHgAgAFPiAG4BZIBAjEwmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=MRJeYadOw47OAsbenJAL&bih=802&biw=1707#imgrc=Kw_ayhuLHen2pM
