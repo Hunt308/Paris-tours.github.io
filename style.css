@@ -1,3 +1,4 @@
+
 /* Global classes */
 
 @import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
@@ -33,6 +34,12 @@ footer{
 
 /* navbar */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
 .logo {
     position: relative;
     top: 1%;
@@ -67,35 +74,36 @@ nav a {
 .showcase {
     background: url(images/Home-showcase.png) center center/cover;
     position: relative;
+    height: 100vh;
 }
 
 
-
-.showcase-h1 {
-    position: relative;
-    bottom: 7%;
-    left: 20%;
-    font-size: 90px;
-    color: yellow;
-    text-transform: uppercase;
-    font-family: 'Ranga';
-    letter-spacing: 5px;
-    
+.showcase-content{
+    display: flex;
+    height: 80vh;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.showcase .btn {
-    color: #fff;
-    padding: 10px 25px;
-    background-color: #E63946;
+.showcase-content a{
+    display: block;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 62px;
+    color: rgb(2, 255, 23);
+    font-weight: bold;
     font-family: 'Roboto';
-    position: relative;
-    bottom: 3%;
-    left: 43%;
-    font-size: 25px;
+    margin: 0 1rem;
+    text-align: center;
 }
 
+
+.showcase-content a:hover{
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+
+}
 
 
 
@@ -124,7 +132,7 @@ nav a {
 .row-1, .row-2, .row-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 12rem;
+    margin: 4rem 0;
     margin-right: 3rem;
     margin-left: 3rem;
 }
@@ -228,7 +236,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap: 200px;
     display: flex;
-    margin-top: 12rem;
+    margin: 4rem 0;
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -282,7 +290,7 @@ footer{
 
 
 .location-main-img{
-    margin-top: 8rem;
+    margin: 4rem 0;
 }
 
 .location-about-sect{
@@ -375,7 +383,7 @@ footer{
         position: fixed;
         top: 20px;
         right: 20px;
-        background: chocolate;
+        background:  #E63946 url(images/open.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
@@ -387,6 +395,7 @@ footer{
 
     .toggle.active{
         background-repeat: no-repeat;
+        background: #E63946 url(images/close.png);
         background-position: center;
         background-size: 25px;
     }
@@ -474,6 +483,33 @@ footer{
         padding-top: 10rem;
     }
 
+    .showcase-content{
+        display: flex;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .showcase-content a{
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 40px;
+        color: rgb(2, 255, 23);
+        font-weight: bold;
+        font-family: 'Roboto';
+        text-align: center;
+        margin: 0 1rem;
+    }
+
+    .showcase-content a:hover{
+        color: gold;
+        transition: 0.5s ease-in-out;
+        transform: none;
+    
+    }
+
     
 
     
@@ -493,4 +529,3 @@ footer{
 
 
 }
-
